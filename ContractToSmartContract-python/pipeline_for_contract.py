@@ -642,6 +642,6 @@ def modify_effective_date(dates, IR):
 
 
 if __name__ == "__main__":
-    contract_path = sys.argv[0]
-    output_path = sys.argv[1] 
-    process_contract(contract_path output_path)
+    contract_path = sys.argv[1]
+    output_path = sys.argv[2]
+    process_contract(contract_path, output_path)

@@ -26,5 +26,7 @@ Smart contract which reflects the semantic requirements
 ## How to run
 First, users should generate the smartIR. To generate smartIR, users should execute
 pipline_for_contract with two input parameters: legal contract location and output location.
-After this execution, the res folder contains the four types progammable clauses and smartIR.
+After this execution, the res folder contains the four types programmable clauses and smartIR.
+
+    python3 pipline_for_contract.py contract_path output_path
 
