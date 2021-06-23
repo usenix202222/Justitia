@@ -20,7 +20,7 @@ Legal contract
 Smart contract which reflects the semantic requirements
 
 ##Setup
-1. unzip roberta-classification.zip, and assign the path to the variable CLASSIFIER_PATH.
+1. download and unzip [roberta-classification.zip](https://drive.google.com/file/d/1s8vbKgDeQ8NN4IpS3oPX87BJgWMJY1-w/view?usp=sharing), and assign the path to the variable CLASSIFIER_PATH.
 2. unzip trained-qa.zip, and assign the path to the variable TRAINED_QA_MODEL_PATH
 3. install the required packages and StanfordCorenlp pipeline
 ## How to run
