@@ -16,10 +16,10 @@ smart contracts that honor the semantics of legally binding agreements.
 ## Input
 Legal contract
 
-##Output
+## Output
 Smart contract which reflects the semantic requirements
 
-##Setup
+## Setup
 1. download and unzip [roberta-classification.zip](https://drive.google.com/file/d/1s8vbKgDeQ8NN4IpS3oPX87BJgWMJY1-w/view?usp=sharing), and assign the path to the variable CLASSIFIER_PATH in the file project_global_value.
 2. download and unzip [trained-qa.zip](https://drive.google.com/file/d/1cU7zgLDHAqW2sgbBj3YXcdmikLKG3oHQ/view?usp=sharing), and assign the path to the variable TRAINED_QA_MODEL_PATH in the file project_global_value.
 3. install the required packages and StanfordCorenlp pipeline
