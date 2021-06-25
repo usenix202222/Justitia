@@ -1,0 +1,38 @@
+{
+    "ContractCategory": "PurchaseAgreement",
+    "SellerName": [
+        "NISSAN MOTOR ACCEPTANCE CORPORATION"
+    ],
+    "BuyerName": [
+        "NISSAN AUTO RECEIVABLES CORPORATION II"
+    ],
+    "EffectiveTime": [
+        "January\u00a016, 2013,"
+    ],
+    "CloseTime": [],
+    "OutSideClosingDate": [],
+    "Payments": [
+        {
+            "From": [
+                "NISSAN AUTO RECEIVABLES CORPORATION II"
+            ],
+            "To": [
+                "NISSAN MOTOR ACCEPTANCE CORPORATION"
+            ],
+            "TimeLimit": {
+                "operator": "<=",
+                "leftOp": "now",
+                "rightOp": "CloseTime",
+                "disabled": false
+            },
+            "PurchasePrice": 1427665100.36,
+            "Transfer": false
+        }
+    ],
+    "Transfers": true,
+    "Terminations": {
+        "TransferTermination": false,
+        "OutOfDateTermination": false,
+        "OtherTermination": true
+    }
+}
