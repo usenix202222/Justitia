@@ -15,9 +15,31 @@ smart contracts that honor the semantics of legally binding agreements.
 </ol>
 
 ## Input
-A legal contract which contains the exchange of physical products or various kinds of assets (
-e.g. stocks, securities
-) 
+A legal contract containing the following types of "programmable clauses". 
+
+* Entity, e.g.,
+    ```
+    THIS STOCK PURCHASE AGREEMENT (this “Agreement”) is made and entered into on February 6th, 2012 (the “Execution Date”) by and among BioAmber Inc., a Delaware corporation (the “Company”), and Lanxess Corporation, a Delaware corporation (the “Purchaser”).
+    ```
+* OnlineStateTransfer, e.g.,
+    ```
+    At the Closing (as defined below), the Company shall sell and issue to the Purchaser, and, subject to the terms and conditions set forth herein, the Purchaser shall acquire and purchase from the Company, 10,030 Securities (as defined below) upon payment by the Purchaser of a purchase price of Nine Million Nine Hundred Ninety-Nine Thousand Nine Hundred and Ten US Dollars (US$9,999,910) (the “Purchase Price”), payable as set out in Section 2 of this Agreement.
+    ```
+
+* OfflineDelivery, e.g.,
+    ```
+    At the Closing, subject to the terms and conditions hereof, the Company shall deliver to the Purchaser the following:
+    (a) ... (b) ... (c)... (d)... (e)... (f)... (g)... (h)...
+    At the Closing, subject to the terms and conditions hereof, the Purchaser shall pay the Purchase Price by wire transfer of immediately available funds to an account designated in writing by the Company not less than two business days prior to the Closing and shall deliver to the Company the following:
+    (a) ... (b) ... (c) ... (d)...
+    ```
+
+* Termination, e.g.,
+    ```
+    This Agreement may be terminated by the Purchaser in the event that all of the conditions set forth in this Section 6 (other than this Section 6.7) do not occur on or before February 8th, 2012 and, upon such termination by the Purchaser, this Agreement shall become null and void, and there shall be no liability or obligation on the part of the Purchaser or its respective officers, directors, stockholders or affiliates.
+    ```
+
+Note that Justitia is not limited to any specific legal agreements. We use these types of programmable clauses as the initial programming model of Justitia, which is extensible to support other types of clauses when necessary.
 
 ## Output
 Smart contract which reflects the semantic requirements
