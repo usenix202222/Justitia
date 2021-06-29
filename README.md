@@ -14,7 +14,9 @@ smart contracts that honor the semantics of legally binding agreements.
 </ol>
 
 ## Input
-Legal contract
+A legal contract which contains the exchange of physical products or various kinds of assets (
+e.g. stocks, securities
+) 
 
 ## Output
 Smart contract which reflects the semantic requirements
