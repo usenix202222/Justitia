@@ -1,0 +1,30 @@
+{
+    "ContractCategory": "StockPurchaseAgreement",
+    "SellerName": [],
+    "BuyerName": [],
+    "EffectiveTime": [
+        "November 2, 2009"
+    ],
+    "CloseTime": [],
+    "OutSideClosingDate": [],
+    "Payments": [
+        {
+            "From": [],
+            "To": [],
+            "TimeLimit": {
+                "operator": "<=",
+                "leftOp": "now",
+                "rightOp": "CloseTime",
+                "disabled": false
+            },
+            "PurchasePrice": 60000,
+            "Transfer": true
+        }
+    ],
+    "Transfers": true,
+    "Terminations": {
+        "TransferTermination": false,
+        "OutOfDateTermination": false,
+        "OtherTermination": false
+    }
+}

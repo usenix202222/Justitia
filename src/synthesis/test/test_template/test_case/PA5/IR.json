@@ -1,0 +1,36 @@
+{
+    "ContractCategory": "PurchaseAgreement",
+    "SellerName": [
+        "RANGE OPERATING NEW MEXICO"
+    ],
+    "BuyerName": [],
+    "EffectiveTime": [
+        "26th  February 2013,"
+    ],
+    "CloseTime": [],
+    "OutSideClosingDate": [
+        "June 1, 2013;"
+    ],
+    "Payments": [
+        {
+            "From": [],
+            "To": [
+                "RANGE OPERATING NEW MEXICO"
+            ],
+            "TimeLimit": {
+                "operator": "<=",
+                "leftOp": "now",
+                "rightOp": "CloseTime",
+                "disabled": false
+            },
+            "PurchasePrice": 275000000,
+            "Transfer": true
+        }
+    ],
+    "Transfers": true,
+    "Terminations": {
+        "TransferTermination": true,
+        "OutOfDateTermination": true,
+        "OtherTermination": true
+    }
+}
